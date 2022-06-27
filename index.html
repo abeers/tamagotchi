@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>Welcome to Tamagotchi!</h1>
+  <div id="welcome-message-container">
+    <h2>Press play to play the game. Keep your pet alive by feeding it, letting it sleep, and playing with it</h2>
+    <button id="start-game-button">Play Game</button>
+  </div>
+
+  <div id="main-game-container" class="hide">
+    <h2>Meet your new <span id="cheat">best</span> friend!</h2>
+    <ul>
+      <li>Age: <span id="age-tracker">0</span></li>
+      <li>Hunger: <span id="hunger-tracker">0</span></li>
+      <li>Tiredness: <span id="tiredness-tracker">0</span></li>
+      <li>Boredom: <span id="boredom-tracker">0</span></li>
+    </ul>
+    <div>
+      <button id="feed-button">Feed</button>
+      <button id="sleep-button">Sleep</button>
+      <button id="play-button">Play</button>
+    </div>
+  </div>
+</body>
+</html>
